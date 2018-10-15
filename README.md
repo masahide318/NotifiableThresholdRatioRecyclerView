@@ -28,17 +28,16 @@ edit layout.xml
 <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <masahide.com.notifiablethresholdratiorecyclerview.NotifiableThresholdRatioRecyclerView
+    <com.masahide.recyclerview.NotifiableThresholdRatioRecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-    </masahide.com.notifiablethresholdratiorecyclerview.NotifiableThresholdRatioRecyclerView>
+    </com.masahide.recyclerview.NotifiableThresholdRatioRecyclerView>
 
 </android.support.constraint.ConstraintLayout>
 ```
@@ -46,13 +45,6 @@ edit layout.xml
 edit Activity
 
 ```
-
-import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.DividerItemDecoration
-import android.support.v7.widget.LinearLayoutManager
-import kotlinx.android.synthetic.main.activity_main.*
-
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
