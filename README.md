@@ -3,7 +3,21 @@
 This is a custom RecyclerView.  
 Notify when display area  becomes smaller or greater than threshold by scrolling.
 
-## How to use 
+## Set Up
+
+```
+repositories {
+    maven {
+        url 'https://github.com/masahide318/NotifiableThresholdRatioRecyclerView/raw/master/maven-repo'
+    }
+}
+
+dependencies {
+    implementation 'com.masahide:notifiablerecyclerview:0.0.1'
+}
+```
+
+## Usage
 
 It is same how to use normal recyclerview.
 
